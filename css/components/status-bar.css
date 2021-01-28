@@ -1,4 +1,6 @@
 .status-bar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin: 5px 3px;
@@ -21,7 +23,4 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
   font-size: 23px;
-}
-.status-bar__column.fa-bolt {
-  font-size: 10px;
 }
