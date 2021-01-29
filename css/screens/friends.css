@@ -8,3 +8,34 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.2);
 }
+.friends-screen {
+  margin-top: 20px;
+}
+.friends-screen__channel-header {
+  margin-bottom: 12px;
+}
+.Domodazzi-component {
+  display: flex;
+}
+.Domodazzi-component__column {
+  display: flex;
+  align-items: center;
+}
+.Domodazzi-component__dzzi-avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 18px;
+}
+.Domodazzi-component__avatar__title {
+  font-size: 17px;
+  font-weight: 500;
+}
+.Domodazzi-component__avatar__subtitle {
+  margin-top: 8px;
+  font-size: 12px;
+}
+.friends-box {
+  padding: 0px var(--horizontal-space);
+}
