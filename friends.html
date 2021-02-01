@@ -14,7 +14,7 @@
         <!--To Do: wifi Icon-->
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>9:43</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -26,7 +26,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">도모다찌</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
@@ -40,35 +40,43 @@
       <i class="fas fa-chevron-right fa-xs"></i>
     </a>
 
-    <main class="friends-box">
+    <main class="friend-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img src="img/Bimsan-profile.jpg" class="user-component__avatar" />
+          <img
+            src="C:\Users\seank\Desktop\sean-s-first-kokoa-clone-project\img\Bimsan-profile.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
           <div class="user-component__text">
-            <h4 class="user-component__avatar__title">Bimsan</h4>
-            <h7 class="user-component__avatar__subtitle">JUST DO IT.</h7>
+            <h4 class="user-component__title">Sean</h4>
+            <!--<h6 class="user-component__subtitle">Just do it.</h6>-->
           </div>
         </div>
         <div class="user-component__column"></div>
       </div>
 
-      <div class="friends-screen">
-        <div class="friends-screen__channel-header">
-          <span>도모다찌S</span>
-          <i class="fas fa-chevron-down fa-xs"></i>
+      <div class="friend-screen__channel">
+        <div class="friend-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
         </div>
-
-        <div class="Domodazzi-component">
-          <div class="Domodazzi-component__column">
+        <div class="user-component">
+          <div class="user-component__column">
             <img
-              src="img/Minami-profile.jpg"
-              class="Domodazzi-component__dzzi-avatar"
+              src="C:\Users\seank\Desktop\sean-s-first-kokoa-clone-project\img\Minami-profile.jpg"
+              class="user-component__avatar user-component__avatar--sm"
             />
-            <div class="Domodazzi-component__text">
-              <h4 class="Domodazzi-component__avatar__title">Hamabe minami</h4>
-              <h7 class="Domodazzi-component__avatar__subtitle"
-                >범준아 사랑해</h7
-              >
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Channel for Minami
+              </h4>
+              <!--<h6 class="user-component__subtitle">Just do it.</h6>-->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
             </div>
           </div>
         </div>
@@ -78,23 +86,23 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__a" href="friends.html" name="도모다찌">
+          <a class="nav__a" href="friends.html" name="친구">
             <i class="fas fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="chats.html">
             <span class="nav__notification">1</span>
             <i class="far fa-comment fa-2x" name="채팅"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link">
+          <a class="nav__link" href="find.html">
             <i class="fas fa-search fa-2x" name="검색"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link">
+          <a class="nav__link" href="more.html">
             <div class="nav__dot"></div>
             <i class="fas fa-ellipsis-h fa-2x" name="기타"></i>
           </a>
