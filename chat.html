@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
+    <title>Chat with Minami-Kokoa Clone</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -14,7 +15,7 @@
         <!--To Do: wifi Icon-->
       </div>
       <div class="status-bar__column">
-        <span>8:04</span>
+        <span>8:29</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -24,20 +25,25 @@
         <!--Lightning Icon-->
       </div>
     </div>
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header__text">
-        If you have a Kakao Account, log in with your email or phone number.
-      </p>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Hamabe Minami</h1>
+      </div>
+      <div class="alt-header__column">
+        <span class="alt-header__icon-search">
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span class="alt-header__icon-bars">
+          <i class="fas fa-bars fa-lg"></i>
+        </span>
+      </div>
     </header>
 
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="let's go">Find Kakao Account or Password</a>
-      <a href="nope">Fuck It, Quit The Service</a>
-    </form>
+    <main class="main-screen"></main>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
