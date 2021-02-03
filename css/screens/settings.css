@@ -1,0 +1,20 @@
+.settings-list {
+  padding: 30px 0px;
+  border-bottom: var(--main-border);
+}
+.settings__setting {
+  padding: 18px 0px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.settings__setting:first-child {
+  border-bottom: var(--main-border2);
+}
+.settings__setting:nth-child(2) {
+  border-bottom: var(--main-border2);
+}
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 18px;
+}
