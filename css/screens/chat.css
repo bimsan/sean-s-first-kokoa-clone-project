@@ -19,10 +19,12 @@
 .main-chat {
   margin-top: 110px;
 }
+/* 날짜 스탬프 */
 .chat__timestamp {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 .chat__timestamp-text {
   background-color: rgba(0, 0, 0, 0.2);
@@ -30,4 +32,37 @@
   padding: 7px 12px;
   font-size: 13px;
   color: #e9edf0;
+}
+/* 미나미랑 카톡 */
+.message-row img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.message-row {
+  width: 100%;
+  display: flex;
+}
+.message__author {
+  display: block;
+  opacity: 0.9;
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__balloon {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 13px;
+  border-top-left-radius: 2px;
+}
+.message__time {
+  opacity: 0.9;
+  font-size: 11px;
+  margin-left: 5px;
 }
