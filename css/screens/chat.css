@@ -18,14 +18,16 @@
 }
 .main-chat {
   margin-top: 110px;
+}
+.chat__timestamp {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.chat__timestamp {
+.chat__timestamp-text {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  padding: 8px;
+  padding: 7px 12px;
   font-size: 13px;
   color: #e9edf0;
 }
