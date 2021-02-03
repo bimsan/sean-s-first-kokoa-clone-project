@@ -6,15 +6,23 @@
   justify-content: space-between;
 }
 .alt-header__title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 .alt-header__icon-search {
   margin-right: 25px;
 }
 .alt-header__column {
+  width: 33%;
 }
-.alt-header__column {
+.alt-header__column:first-child {
+  display: flex;
+  justify-content: flex-start;
 }
-.alt-header__column {
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+.alt-header__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
 }
