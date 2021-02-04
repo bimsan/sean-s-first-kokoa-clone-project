@@ -18,12 +18,18 @@
 .more-suggestion__icon:last-child {
   text-align: center;
 }
+
 .more-suggestion__icon-image img {
   width: 60px;
   height: 60px;
   object-fit: cover;
   border-radius: 10px;
 }
+
+.more-suggestion__icon-image img:last-child {
+  border: var(--main-border2);
+}
+
 .more-suggestion__icon-text {
   margin-top: 7px;
   font-size: 14px;

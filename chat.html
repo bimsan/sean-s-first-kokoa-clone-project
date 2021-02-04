@@ -26,6 +26,7 @@
       </div>
     </div>
 
+    <!-- 톡방 헤더 -->
     <header class="alt-header">
       <div class="alt-header__column">
         <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
@@ -43,11 +44,13 @@
       </div>
     </header>
 
+    <!-- 채팅내용 -->
     <main class="main-screen main-chat">
       <!--날짜 스탬프-->
       <div class="chat__timestamp">
         <div class="chat__timestamp-text">2029년 8월 4일 토요일</div>
       </div>
+
       <!--미나미랑 카톡>< -->
       <div class="message-row">
         <img
@@ -100,12 +103,24 @@
         <div class="message-row__content">
           <span class="message__author">Hamabe minami</span>
           <div class="message__info">
-            <span class="message__balloon">뭐양 ㅎ</span>
+            <span class="message__balloon">아 뭐양 ㅎ</span>
             <span class="message__time">오전 9:11</span>
           </div>
         </div>
       </div>
     </main>
+
+    <!-- 채팅터미널 -->
+    <form class="reply">
+      <div class="reply__column">
+        <span><i class="far fa-plus-square fa-lg"></i></span>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지 입력" />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button><i class="fas fa-arrow-up fa-lg"></i></button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
