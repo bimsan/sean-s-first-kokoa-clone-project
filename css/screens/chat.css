@@ -44,6 +44,7 @@
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 23px;
 }
 .message__author {
   display: block;
@@ -65,4 +66,16 @@
   opacity: 0.9;
   font-size: 11px;
   margin-left: 5px;
+}
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__balloon {
+  background-color: var(--yellow);
+  border-top-right-radius: 2px;
+  border-top-left-radius: 13px;
+}
+.message-row--own .message__time {
+  margin-right: 5px;
+  margin-left: -5px;
 }
