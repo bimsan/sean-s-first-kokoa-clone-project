@@ -97,3 +97,23 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes heartbeat {
+  0 {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(2);
+    color: pink;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+
+.open-post__heart-count:hover i {
+  animation: heartbeat 1s ease-in-out infinite;
+  will-change: transform;
+}
