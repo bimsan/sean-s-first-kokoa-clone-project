@@ -16,8 +16,24 @@
 #chat-screen .alt-header {
   z-index: 1;
 }
+
+@keyframes fadein {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .main-chat {
   margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadein 0.3s linear;
 }
 
 /* 날짜 스탬프 */
@@ -93,6 +109,8 @@
   align-items: center;
   padding: 5px 20px;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  will-change: transform;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -112,6 +130,7 @@
   width: 100%;
   border-radius: 20px;
   border: var(--main-border);
+  transition: all 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -131,4 +150,23 @@
   border: none;
   padding: 7px;
   border-radius: 50%;
+}
+
+.reply .reply__column:first-child,
+.reply .fa-smile-wink,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+.reply:focus-within input {
+  width: 95vw;
+  transform: translateX(-11%) translateY(-80px);
+  will-change: transform;
+}
+.reply:focus-within {
+  transform: translateY(80px);
 }
